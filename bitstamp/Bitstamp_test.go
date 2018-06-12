@@ -1,7 +1,7 @@
 package bitstamp
 
 import (
-	"github.com/nntaoli-project/GoEx"
+	"github.com/grezbo/GoEx"
 	"github.com/stretchr/testify/assert"
 	"log"
 	"net/http"
@@ -49,14 +49,14 @@ func TestBitstamp_LimitSell(t *testing.T) {
 
 
 func TestBitstamp_MarketBuy(t *testing.T) {
-	ord, err := btmp.MarketBuy("1", goex.XRP_USD)
+	ord, err := btmp.MarketBuy("1","1", goex.XRP_USD)
 	assert.Nil(t, err)
 	t.Log(ord)
 }
 
 
 func TestBitstamp_MarketSell(t *testing.T) {
-	ord, err := btmp.MarketSell("2", goex.XRP_USD)
+	ord, err := btmp.MarketSell("2", "1", goex.XRP_USD)
 	assert.Nil(t, err)
 	t.Log(ord)
 }

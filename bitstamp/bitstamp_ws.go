@@ -3,7 +3,7 @@ package bitstamp
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/nntaoli-project/GoEx"
+	"github.com/grezbo/GoEx"
 	"log"
 	"sort"
 	"strings"

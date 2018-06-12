@@ -1,7 +1,7 @@
 package builder
 
 import (
-	"github.com/nntaoli-project/GoEx"
+	"github.com/grezbo/GoEx"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

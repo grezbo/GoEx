@@ -1,13 +1,13 @@
 package huobi
 
 import (
-	"github.com/nntaoli-project/GoEx"
+	"github.com/grezbo/GoEx"
 	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"
 )
 
-var hb2 = NewV2(http.DefaultClient, "", "")
+var hb2 = NewV2(http.DefaultClient, "", "", "")
 
 func TestHuoBi_V2_GetTicker(t *testing.T) {
 	ticker, err := hb2.GetTicker(goex.BTS_CNY)

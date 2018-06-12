@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nntaoli-project/GoEx"
+	"github.com/grezbo/GoEx"
 )
 
 const (
@@ -392,7 +392,7 @@ func (hitbtc *Hitbtc) GetDepth(size int, currency goex.CurrencyPair) (*goex.Dept
 		bidList = append(bidList, one)
 	}
 
-	return &goex.Depth{askList, bidList}, nil
+	return &goex.Depth{AskList: askList, BidList: bidList}, nil
 }
 
 func (hitbtc *Hitbtc) GetKlineRecords(currency goex.CurrencyPair, period, size, since int) ([]goex.Kline, error) {

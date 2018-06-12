@@ -1,12 +1,12 @@
 package huobi
 
 import (
-	"github.com/nntaoli-project/GoEx"
+	"github.com/grezbo/GoEx"
 	"github.com/stretchr/testify/assert"
-	"internal/log"
 	"net/http"
 	"testing"
 	"time"
+	"log"
 )
 
 //

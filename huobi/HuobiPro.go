@@ -5,7 +5,7 @@ import (
 	"compress/gzip"
 	"encoding/json"
 	"fmt"
-	. "github.com/nntaoli-project/GoEx"
+	. "github.com/grezbo/GoEx"
 	"io/ioutil"
 	"log"
 	"net/http"

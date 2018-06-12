@@ -2,7 +2,7 @@ package bittrex
 
 import (
 	"fmt"
-	. "github.com/nntaoli-project/GoEx"
+	. "github.com/grezbo/GoEx"
 	"net/http"
 	"sort"
 	"errors"
